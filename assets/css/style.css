@@ -1,0 +1,272 @@
+body{
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-size: 15px;
+    background-color: #fff;
+    line-height: 1.6;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+}
+
+*,
+*:before,
+*:after{
+    box-sizing: border-box;
+}
+
+
+/* навигация по сайту */
+.card{
+    font-size: 30px;
+    background-color: #000000;
+
+    padding-left: 20px;
+    padding-right: 10px;
+    border-radius: 20px;
+    margin-left: 10px;
+    height: 500px;
+
+    flex: 1;
+    transition: .3s linear;
+
+    display: grid;
+    place-items: center;
+
+    color: #F08080;
+    font-weight: bold;  
+
+    -moz-user-select: none;
+    -khtml-user-select: none;
+    -webkit-user-select: none;
+    user-select: none;
+}
+
+.card:hover{
+    flex: 2;
+    background-color: 	#008080;
+}
+
+
+/* начало конца */
+.beg{
+    width: 100%;
+    height: 100vh;
+}
+
+
+/* логотип */
+.logo{
+    color: #000000;
+    font-weight: bold;
+    font-size: 64px;    
+
+    margin-bottom: 100px;
+    padding-top: 20px;
+
+    -moz-user-select: none;
+    -khtml-user-select: none;
+    -webkit-user-select: none;
+    user-select: none;
+}
+
+
+/* кнопка */
+.btn{
+    display: inline-block;
+    vertical-align: top;
+    padding: 10px 15px;
+
+    border: 2px solid #000000;
+    margin-top: 100px;
+    text-transform: uppercase;
+    font-size: 32px;
+    color: #333;
+    text-decoration: none;
+
+    -moz-user-select: none;
+    -khtml-user-select: none;
+    -webkit-user-select: none;
+    user-select: none;
+}
+
+.btn:hover{
+    background-color: 	#008080;
+    transition: .4s linear;
+    color: #F08080;
+}
+
+
+/* второй слайд */
+.section{
+    background-color: #000000;
+    margin-left: -50px;
+    margin-right: -50px;
+    margin-top: -150px;
+    height: 1000px;
+}
+
+.section__header{
+    width: 1200px;
+    margin-bottom: 50px;
+
+}
+
+/* текст */
+.pre__header{
+    display: flex;
+    justify-content: center;
+
+    color: #F08080;
+
+    padding-top: 100px;
+    font-size: 28px;
+    font-weight: bold;
+
+    -moz-user-select: none;
+    -khtml-user-select: none;
+    -webkit-user-select: none;
+    user-select: none;
+}
+
+.header{
+    display: flex;
+    justify-content: center;
+
+    color: #F08080;
+
+    font-size: 48px;
+    font-weight: bold;
+
+    -moz-user-select: none;
+    -khtml-user-select: none;
+    -webkit-user-select: none;
+    user-select: none;
+}
+
+/* картинки второго слайда */
+.about{
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    padding-right: 200px;
+    padding-bottom: 50px;
+    padding-top: 100px;
+}
+
+.about__item{
+    width: 30%; 
+    padding-bottom: 70px;
+}
+
+.about__img{
+    color: #000000;
+
+    transition: transform .2s linear;
+    margin-bottom: 30px;
+}
+
+.about__img img{
+    display: block;
+    transition: opacity .3s linear
+}
+
+/* информация */
+.statistics{
+    background-color: #fff;
+    width: 100%;
+}
+
+.stat{
+    display: flex;
+    height: 500px;
+}
+
+.stat__item{
+    flex: 1 1 0;
+    font-size: 32px;
+
+    border-left: 15px solid #000000;
+    border-bottom: 15px solid #000000;
+    text-align: center;
+    color: #008080;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    -moz-user-select: none;
+    -khtml-user-select: none;
+    -webkit-user-select: none;
+    user-select: none;
+}
+
+.stat__item:first-child{
+    border-left: #fff;
+}
+
+/* медиа */
+.button {
+    font-family: inherit;
+    background: #2CA0D9;
+    color: white;
+    padding: 0.35em 0;
+    font-size: 17px;
+
+    border: none;
+    border-radius: 0.7em;
+    letter-spacing: 0.08em;
+
+    position: relative;
+    display: flex;
+    align-content: center;
+    align-items: center;
+    overflow: hidden;
+    height: 2.1em;
+
+    padding-left: 2.8em;
+    padding-right: 0.9em;
+    margin-top: 100px;
+    margin-bottom: 100px;
+   }
+   
+   .button .icon {
+    background: #fff;
+    height: 2em;
+    width: 2em;
+    border-radius: 2em;
+
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    left: 0.4em;
+    transition: all 0.5s;
+   }
+   
+   .icon svg {
+    margin-left: 0.4em;
+    transition: all 0.5s;
+
+    color: #2CA0D9;
+    width: 1.2rem;
+    height: 1.2rem;
+   }
+   
+   .button:hover .icon svg {
+    transform: rotate(360deg);
+   }
+   
+   .button:hover .icon {
+    width: calc(100% - 0.85rem);
+    border-radius: 0.5em;
+   }
+
+.telegram{
+    -moz-user-select: none;
+    -khtml-user-select: none;
+    -webkit-user-select: none;
+    user-select: none;
+}
